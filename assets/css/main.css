@@ -2438,6 +2438,10 @@ input, select, textarea {
 		.panel .span-3-75 {
 			width: 37.5rem;
 		}
+		.panel .span-3-76 {
+			height: 85rem;
+			width: 70rem;
+		}
 
 		.panel .span-4 {
 			width: 40rem;
@@ -3327,7 +3331,7 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 800px) {
 
 		.panel.banner .content {
 			padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
@@ -3350,7 +3354,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 736px) and (orientation: portrait) {
+	@media screen and (max-width: 800px) and (orientation: portrait) {
 
 		.panel.banner .content {
 			-moz-flex-basis: auto;
@@ -3594,7 +3598,7 @@ input, select, textarea {
 
 		#wrapper > .copyright {
 			position: absolute;
-			bottom: -3rem;
+			bottom: -4rem;
 			right: 0;
 			font-size: 0.8rem;
 			color: rgba(46, 43, 55, 0.375);
